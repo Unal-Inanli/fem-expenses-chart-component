@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="./style.css">
+  <title>Frontend Mentor | Expenses chart component</title>
+
+  <script src="./index.js" type="text/javascript" defer></script>
+</head>
+<body>
+  <div class="expense-component">
+    <div class="expense-component__balance-container">
+      <div class="expense-component__balance">
+        <span class="expense-component__balance-title">
+          My balance
+        </span>
+        <h2 class="expense-component__balance-amount">
+          $921.48
+        </h2>
+      </div>
+      <svg class="expense-component__logo" width="72" height="48" viewBox="0 0 72 48" xmlns="http://www.w3.org/2000/svg"><g fill="none" fill-rule="evenodd"><circle fill="#382314" cx="48" cy="24" r="24"/><circle stroke="#FFF" stroke-width="2" cx="24" cy="24" r="23"/></g></svg>
+    </div>
+
+    <div class="expense-component__chart-container">
+      <h2 class="expense-component__chart-title">Spending - Last 7 days</h2>
+
+
+      <div id="chart-entry" class="expense-component__chart">
+      
+      </div>
+
+
+      <hr class="seperator"/>
+      <div class="expense-component__stats-container">
+        <div class="expense-component__stats-total">
+        <span class="expense-component__stats-title">
+        Total this month
+        </span>
+        <h2 class="expense-component__stats-amount">
+          $478.33
+        </h2>
+        </div>
+
+        <div class="expense-component__stats-end">
+          <h2 class="expense-component__stats-amount  expense-component__stats-amount--small">
+            +2.4%
+          </h2>
+          <span class="expense-component__stats-title">
+            from last month
+          </span>
+        </div>
+      </div>
+    </div>
+  </div>
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"> Frontend Mentor</a>. 
+    Coded by <a href="#">Unal Inanli</a>.
+  </div>
+</body>
+</html>
