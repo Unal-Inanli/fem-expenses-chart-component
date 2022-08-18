@@ -25,13 +25,19 @@ html {
 
 body {
     background-color: var(--cream);
+    display: flex;
+    justify-content: center;
+    align-items: center;
     min-height: 100vh;
+    padding: 0rem 1rem;
+    
+}
+
+main {
     width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 0rem 1rem;
-    
 }
 
 .attribution {
@@ -97,6 +103,10 @@ body {
     padding: 2rem 2rem;
     border-radius: var(--radius);
     width: 100%;
+}
+
+.expense-component__chart-title {
+    font-size: 1.5rem;
 }
 
 .expense-component__stats-container {
